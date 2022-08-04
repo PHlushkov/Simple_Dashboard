@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import './reset';
+@import './nav';
+@import './main_top';
+@import './main_middle';
+
+
+.container-nav {
+    max-width: 356px;
+    width: 100%;
+}
+
+.container-main {
+    max-width: 1048px;
+    width: 100%;
+}
+
+.flex-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.page-wrap {
+    max-width: 1417px + 15px * 2;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    gap: 13px;
+    padding-top: 21px;
+}
+
+/*main_lowe*/
+
+.lower {
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.diagram {
+    background-color: var(--purple-300);
+    border-radius: 39px;
+    position: relative;
+}
+
+.ellipse {
+    padding: 15px 85px 14px 50px;
+
+}
+
+.diagram__img {
+    position: absolute;
+    top: 44px;
+    left: -45px;
+}
+
+.schedule {
+    background-color: var(--purple-300);
+    border-radius: 39px;
+    position: relative;
+    min-width: 640px;
+
+}
+
+.graphick {
+    position: absolute;
+    top: 25px;
+    left: -249px;
+    z-index: 1;
+}
+
+.schedule__img {
+    max-width: 493px;
+    position: absolute;
+    top: -40px;
+    left: 61px;
+}

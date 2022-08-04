@@ -1,0 +1,45 @@
+.main {
+    flex-grow: 1;
+}
+
+.top {
+    justify-content: space-between;
+    background-color: var(--purple-300);
+    border-radius: 39px;
+    padding: 12px 15px 4px 11px;
+}
+
+.info {
+    gap: 18px;
+
+    &__many {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__sum {
+        font-weight: 800;
+        font-size: var(--fs-big);
+        line-height: 73px;
+        color: var(--purple-900);
+    }
+
+    &__winner {
+        font-weight: 800;
+        font-size: var(--fs-small);
+        line-height: 24px;
+        color: var(--white);
+    }
+}
+
+.logo {
+    max-width: 90px;
+}
+
+.h1 {
+    font-weight: 800;
+    font-size: var(--fs-lg);
+    line-height: 61px;
+    color: var(--purple-900);
+}

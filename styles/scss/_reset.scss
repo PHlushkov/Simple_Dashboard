@@ -1,0 +1,31 @@
+:root {
+    --fs-big: 60px;
+    --fs-lg: 50px;
+    --fs-normal: 30px;
+    --fs-small: 20px;
+
+    /*color*/
+    --purple-700: #AE34CD;
+    --white: #FFFFFF;
+    --purple-900: #390646;
+    --purple-300: #D4ADD9;
+    --silver: #D4ADD9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
